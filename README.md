@@ -13,9 +13,9 @@ You may have project teams of up to 3 people.
 
 The timeline is:
 
-- Friday February 17 -- Project Proposals
-- Tuesday February 28 -- Prototype Presentation & Feedback
-- Thursday March 9 -- Final Submission (with video) (grading criteria below)
+- Wednesday February 15 -- Project Proposals
+- Tuesday February 23 -- Prototype Presentation & Feedback
+- Thursday March 2 -- Final Submission (with video) (grading criteria below)
 - Note: expect interspersed labs where you will work on your projects / receive feedback as part of Thursday labs.
 
 Proposal
