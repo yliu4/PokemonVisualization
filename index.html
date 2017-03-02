@@ -1,0 +1,165 @@
+<!--<!DOCTYPE HTML>-->
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Pokemon Visualization</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Pokémon Visualization</h2>
+							<h3>Team: Max Levine, Yuchen Liu, Qi Wang</h3>
+							<h4>Recently, many player of Pokémon Go saw a Pokémon Go second Generation Release update. In the game, there are now many second generation Pokémons. So what’s the difference between different generations?</h4>
+						</header>
+						<span class="image"><img src="images/img-1.png" alt="" /></span>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- One -->
+				<section id="one" align = "center" class="spotlight style1 bottom">
+					<!--<span class="image fit main"><img src="images/pic02.jpg" alt="" />-->
+					 	<!--<svg id = 'bubblechart' width="840" height="560" transform="translate(100 300)">-->
+					<!--</span>-->
+					<svg id='stackbar' class="stackbar" width="980" height="500"></svg>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+										<h2>Normalized type distribution</h2>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<p>As for the primary type distribution, 
+									we visualized them in the below normalized stack bar chart.
+									If user mouse over a certain bar, a tooltip will show the generation, type and population information. </p>
+								</div>
+								
+								<div class="4u$ 12u$(medium)">
+									<p>According to the chart, besides the primary type distribution
+									, users are also inform of when a certain primary 
+									type is introduced. For example, “Flying” is firstly introduced in fifth generation.</p>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="spotlight style2 right" >
+					<!--<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>-->
+					<div id='input' >
+						<form id='radarform' method="post" action="javascript:radarAdd()" >
+						<input id='box' style="width:200px" type='text' list='pokemons' placeholder='Enter Pokemon' data-list-filter="^">
+						<datalist id='pokemons' >
+						</datalist>
+						<button id='Add' type="button" value="Add">Add</button>
+						<button id='Clear' type="button" value="Clear">Clear</button>
+						</form>
+					</div>
+					<div id = 'radarchart'>
+					</div>
+					<div class="content">
+						<header>
+							<h2>Pokémon profiles</h2>
+							<p>Compare different Pokémon based on their stats</p>
+						</header>
+						<p>In addition, we created a tool to help compare different Pokémon based on their stats. This radar chart allows you to view Pokémon as profiles. In general the bigger the profile, the stronger the Pokémon. You can search for any Pokémon using the search bar and add it to your chart.</p>
+						
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="spotlight style3 left"  align="right">
+					<!--<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>-->
+					<!--<div class="image fit main bottom" align="right">-->
+					<!--<span height = "20px"></span>-->
+					<svg id = 'bubblechart' class="bubble" width="840" height="560" ></svg>
+									<!--<div id="bobdiv"></div>-->
+					<!--</div>-->
+					<div class="content">
+						<header>
+							<!--<h2>Interdum felis blandit praesent sed augue</h2>-->
+							<h2>Weight of Pokémon varies with generation</h2> 
+							<!--<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>-->
+							<p>Heavier Pokémon seems to be stronger. How do they perform in the game? </p>
+						</header>
+						<!--<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>-->
+						<p>There are more heavy Pokémon in recent generations.
+							Most of the heavy Pokémon are in generation 7 (orange bubbles).
+							Most of the light Pokémon are in generation 1 (blue bubbles).
+						</p>
+
+						
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Four -->
+				<section id="four" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2></br>Tutorial Video</h2>
+							<p>Please enjoy our tutorial video.</p>
+							<video width="960" height="500" controls ><source src="ScreenCast.mp4" type="video/mp4"></video>
+						</header>
+					</div>
+				</section>
+
+			<!-- Five -->
+				<section id="five" class="wrapper style2 special fade">
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+			<script src="https://afarkas.github.io/webshim/js-webshim/minified/polyfiller.js"></script>
+			<script src="https://d3js.org/d3.v4.min.js"></script>
+			<script src="RadarChart.js"></script>
+			<script src="bubblepack.js"></script>
+			
+			<script src="Radar.js"></script>
+			<script src="stackbar.js"></script>
+			
+			
+	</body>
+</html>
