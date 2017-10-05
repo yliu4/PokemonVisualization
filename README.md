@@ -5,13 +5,9 @@ Title: Pokémon Visualization
 Names: Max Levine, Yuchen Liu, Qi Wang  
 E-mail Addresses: mflevine@wpi.edu, yliu4@wpi.edu, qwang12@wpi.edu  
 GitHub Ids: mflevine, yliu4, QiWang19  
+For our final woring website please visit:
 Working Link: https://mflevine.github.io/PokeVis/index.html  
-Project Repository: https://github.com/mflevine/PokeVis  
-  
-##Team
-Max Levine: different versions of second chart (in the final version is a radar chart), writing and optimization  
-Yuchen Liu: different versions of first chart (in the final version is a normalized stack bar chart), writing and optimization  
-Qi Wang: different versions of third chart (in the final version is a bubble pack chart), writing and optimization  
+
   
 ##Background  
 Our project will be based on the data set from Pokémon. Pokémon is a series of video games developed by Game Freak and Creatures Inc. Over the years, the game has been adapted to animated television shows and movies, comic books, and toys.  Especially, in July 2016, a game for iOS and Android devices named Pokémon Go was released. After releasing, Pokémon Go has become the fastest game to top the App Store and Google Play. There is a popular trend to play this game around the world. So we think it would be meaningful to visualize the data in this series game. This kind of visualization would appeal all the people who played the game or heard of the game.  
@@ -35,9 +31,9 @@ The attributes we plan to use: Pokémon id, name, type, total, HP, attack, defen
   
 ##Visualization Design
 
-For showing the type of different generation, we choose the bar chart instead of pie chart. Because there are so many types. A pie chart becomes less effective if it uses too many pieces of data and differences between some pair of slices are hard to tell.  
+For showing the type of different generation, we choose the normalized stack bar chart instead of pie chart. Because there are so many types. A pie chart becomes less effective if it uses too many pieces of data and differences between some pair of slices are hard to tell.  
   
-In the bar chart, we will make different colors of bars for different generation. The height of bar stands for the number of some type of Pokémon. We will also add a slider to easily to decide which generation to show.   
+In the bar chart, we will make different colors of bars for different generation. The height of bar stands for the number of some type of Pokémon. 
   
 We decide to use radar chart to show basic stats of different Pokémon. Using radar chart is a good method to show multivariate data just like the attributes of Pokémon. Radar chart is good to tell which attribute is most strength and which is weakest.  Besides, we can also draw more than one Pokémon in a radar chart to make comparisons between different Pokémon.   
   
@@ -45,14 +41,6 @@ We will describe each Pokémon using radar chart in each generation. We will mak
   
 In order to take a look at the distribution of weights of the Pokémon throughout the generations, we decided we are going to use a bubble chart. Our reasoning is that weight is associated with size so it makes sense that we would encode it with size. The bubbles will labeled with the picture of the respective Pokémon so the viewer is more interested. We also want to encode the type of the Pokémon with color. A slider will allow the viewer to easily change which generation they are looking at.  
   
-Below are our final visualization designs, and as for alternative choices, please refer to Appendix: sketches. 
-![](img/proposal-design1.png)  
-![](img/proposal-design2.png)  
-![](img/proposal-design3.png)  
-![](img/proposal-design4.png)  
-![](img/proposal-design5.png)  
-  
-
 ##Must-Have Features  
 1.	At least three separate types of charts  
   
@@ -62,17 +50,6 @@ Below are our final visualization designs, and as for alternative choices, pleas
   
 4.	Use sprites as representation points  
 
-##Optional Features  
-1. Visualize Evolutions  
-  
-2. Filter by Type  
-  
-3. Sort feature to separate data out by Generation or Type
-  
-4. Radar chart shows average stats for each Type  
-  
-5. Have slider move with viewer    
-  
 ##Project Schedule  
 | Due Date | Task |
 | ------| ------ | 
@@ -81,15 +58,6 @@ Below are our final visualization designs, and as for alternative choices, pleas
 | Monday 2/26 | 1. Apply Feedback  2. Attempt Optional Features| 
 | Thursday 3/2 | 1. Tweak to Completion  2. Film Video|
 
-##Appendix: Sketches
-![](img/proposal-sketch1.png)  
-![](img/proposal-sketch2.png)  
-![](img/proposal-sketch3.png)  
-![](img/proposal-sketch4.png)  
-![](img/proposal-sketch5.png)  
-![](img/proposal-sketch6.png)  
-![](img/proposal-sketch7.png)  
-![](img/proposal-sketch8.png)  
 
 
 
