@@ -6,7 +6,7 @@ Names: Max Levine, Yuchen Liu, Qi Wang
 E-mail Addresses: mflevine@wpi.edu, yliu4@wpi.edu, qwang12@wpi.edu  
 GitHub Ids: mflevine, yliu4, QiWang19  
 For our final woring website please visit:
-Working Link: https://mflevine.github.io/PokeVis/index.html  
+Working Link: https://yliu4.github.io/PokemonVisualization/  
 
   
 ## Background  
